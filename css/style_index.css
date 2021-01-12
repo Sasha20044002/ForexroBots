@@ -658,6 +658,128 @@
   opacity: .45;
 }
 
+.main .trade {
+  width: 1140px;
+  min-height: 488px;
+  padding: 54px 61px 119px 60px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .trade_title {
+  color: #212121;
+  line-height: 43px;
+  font-size: 35px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  margin: 0 0 54px 0;
+}
+
+.main .trade_content {
+  width: 1140px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .trade_content_text1 {
+  width: 660px;
+  color: black;
+  line-height: 29px;
+  font-size: 24px;
+  font-family: "Montserrat-Medium", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.main .trade_content_text1 .text {
+  margin-top: 19px;
+}
+
+.main .trade_content_text1 .bold {
+  font-family: "Montserrat-Bold";
+}
+
+.main .trade_content_text1::before {
+  content: '';
+  width: 171px;
+  height: 221px;
+  background: #4296D4;
+  opacity: 0.09;
+  position: absolute;
+  bottom: -163px;
+  left: -23px;
+}
+
+.main .trade_content_text1::after {
+  content: '';
+  width: 415px;
+  height: 253px;
+  background-color: #4296D4;
+  opacity: 0.09;
+  position: absolute;
+  right: -335px;
+  bottom: -37px;
+}
+
+.main .trade_content_text2 {
+  color: black;
+  line-height: 29px;
+  font-size: 24px;
+  font-family: "Montserrat-Medium", sans-serif;
+  margin-top: 37px;
+}
+
+.main .trade_content_text2 .bold {
+  font-family: "Montserrat-Bold";
+}
+
+.main .advantages {
+  margin: 114px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .advantages_title {
+  color: #212121;
+  line-height: 43px;
+  font-size: 35px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+}
+
 .webp .main .general { background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.48))), url(../img/back.webp); }
 
 .webp .main .general { background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.48) 0%), url(../img/back.webp); }
