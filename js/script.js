@@ -15,3 +15,12 @@ testWebP(function (support) {
 		document.querySelector('body').classList.add('no-webp');
 	}
 });
+
+let btn_play = document.getElementById('button_play');
+
+btn_play.onclick = function (evt) {
+	evt.preventDefault();
+
+	console.log('Упс, аидео не работает...');
+	alert('Упс, аидео не работает...');
+};;

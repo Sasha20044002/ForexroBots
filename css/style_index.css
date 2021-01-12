@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 @font-face {
   font-family: "Montserrat-Bold";
   font-display: swap;
@@ -778,10 +780,382 @@
   line-height: 43px;
   font-size: 35px;
   font-family: "Montserrat-SemiBold", sans-serif;
+  margin: 0 0 98px 0;
 }
 
-.webp .main .general { background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.48))), url(../img/back.webp); }
+.main .advantages_body {
+  width: 937px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 
-.webp .main .general { background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.48) 0%), url(../img/back.webp); }
+.main .advantages_body_item {
+  width: 397px;
+  min-heigh: 243px;
+  margin: 0 0 83px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
 
-.webp .main .general { background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.48) 0%), url(../img/back.webp); }
+.main .advantages_body_item .circle {
+  width: 100px;
+  height: 100px;
+  background: rgba(65, 149, 211, 0.12);
+  border-radius: 50px;
+  margin-left: -50px;
+  position: relative;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+}
+
+.main .advantages_body_item .circle::after {
+  content: '';
+  width: 16px;
+  height: 16px;
+  background: rgba(65, 149, 211, 0.12);
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  right: -21px;
+}
+
+.main .advantages_body_item_title {
+  color: #212121;
+  line-height: 29px;
+  font-size: 24px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  margin: 35px 0 20px 0;
+  text-align: center;
+}
+
+.main .advantages_body_item_text {
+  width: 100%;
+  text-align: center;
+  color: #212121;
+  line-height: 23px;
+  font-size: 19px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+}
+
+.main .advantages_body_item:nth-child(3) .advantages_body_item_logo {
+  margin-top: -17px;
+}
+
+.main .advantages_body_item:nth-child(4) {
+  margin-bottom: 114px;
+}
+
+.main .video {
+  width: 1140px;
+  height: 640px;
+  margin: 0 auto;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.34)), to(rgba(0, 0, 0, 0.34))), url(../img/back2.jpg);
+  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.34)), url(../img/back2.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.34)), url(../img/back2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 110%;
+  -webkit-box-shadow: 2px 2px 42px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 2px 42px rgba(0, 0, 0, 0.25);
+  border-radius: 17px;
+  position: relative;
+}
+
+.main .video_play {
+  margin-top: -79.5px;
+  margin-left: -79.5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.main .social {
+  width: 250px;
+  margin: 59px auto 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .faq {
+  width: 1040px;
+  min-height: 1128зч;
+  padding: 64px 51px 74px 50px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .faq_title {
+  color: #212121;
+  line-height: 43px;
+  font-size: 35px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  margin-bottom: 78px;
+}
+
+.main .faq_accord {
+  margin-bottom: 97px;
+}
+
+.main .faq_accord details summary::-webkit-details-marker {
+  display: none;
+}
+
+.main .faq_accord details summary {
+  outline-style: none;
+}
+
+.main .faq_accord_body {
+  width: 849px;
+  padding: 38px 0 40px 0;
+  border-bottom: 1px solid #D2D2D2;
+}
+
+.main .faq_accord_body_title {
+  width: 100%;
+  color: #212121;
+  line-height: 29px;
+  font-size: 24px;
+  font-family: "Montserrat-Regular", sans-serif;
+  letter-spacing: -0.01em;
+  position: relative;
+}
+
+.main .faq_accord_body_title:hover {
+  cursor: pointer;
+}
+
+.main .faq_accord_body_title::after {
+  content: url(../img/plus.svg);
+  position: absolute;
+  right: 0;
+  top: -7px;
+}
+
+.main .faq_accord_body_content {
+  padding-top: 27px;
+}
+
+.main .faq_accord_body_content_text {
+  width: 100%;
+  color: #212121;
+  line-height: 23px;
+  font-size: 19px;
+  font-family: "Montserrat-Regular", sans-serif;
+  letter-spacing: -0.01em;
+}
+
+.main .faq_accord_body:first-child {
+  padding-top: 0;
+}
+
+.main .faq_accord_body[open] > .faq_accord_body_title {
+  font-family: "Montserrat-Bold";
+}
+
+.main .faq_accord_body[open] > .faq_accord_body_title::after {
+  content: url(../img/mince.svg);
+  position: absolute;
+  top: 0;
+}
+
+.main .faq_comments {
+  width: 1041px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .faq_comments_title {
+  width: 100%;
+  text-align: center;
+  color: #212121;
+  line-height: 43px;
+  font-size: 35px;
+  font-family: "Montserrat-SemiBold", sans-serif;
+  margin: 0 0 36px 0;
+}
+
+.main .faq_comments_row {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.main .faq_comments_block {
+  width: 299px;
+  min-height: 190px;
+  padding: 22px 12px 19px 22px;
+  margin-right: 21px;
+  border: 0.5px solid #D2D2D2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .faq_comments_block_text {
+  width: 100%;
+  color: #212121;
+  line-height: 130.6%;
+  font-size: 15px;
+  font-family: "Montserrat-Medium", sans-serif;
+  margin: 0 0 6px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .faq_comments_block_text_date {
+  color: #777777;
+  line-height: 11px;
+  font-size: 9px;
+  font-family: "Montserrat-Medium", sans-serif;
+  letter-spacing: -0.01em;
+  opacity: .67;
+}
+
+.main .faq_comments_block_author {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main .faq_comments_block_author_left {
+  color: #212121;
+  line-height: 18px;
+  font-size: 15px;
+  font-family: "Montserrat-Bold", sans-serif;
+  margin: 0 0 3px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .faq_comments_block_author_left_job {
+  font-family: "Montserrat-Medium";
+  opacity: .67;
+}
+
+.main .faq_comments_block:nth-child(3) {
+  margin-right: 0;
+}
+
+.main .faq_comments .arrow1 {
+  position: absolute;
+  right: 0;
+}
+
+.main .faq_comments .arrow2 {
+  position: absolute;
+  left: 0;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.main .nothing {
+  width: 100%;
+  height: 117px;
+}
+
+.footer {
+  width: 100%;
+  min-height: 292px;
+  background-color: #0A2896;
+}
+
+.webp .main .general{ background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.48))), url(../img/back.webp); }
+
+.webp .main .general{ background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.48) 0%), url(../img/back.webp); }
+
+.webp .main .general{ background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.48) 0%), url(../img/back.webp); }
+
+.webp .main .video{ background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.34)), to(rgba(0, 0, 0, 0.34))), url(../img/back2.webp); }
+
+.webp .main .video{ background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.34)), url(../img/back2.webp); }
+
+.webp .main .video{ background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.34)), url(../img/back2.webp); }
